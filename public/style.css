@@ -1,14 +1,16 @@
 body {
-  font-family: sans-serif;
-  background-image: url(./sandbox-image.jpg);
+  font-family: papyrus;
+  background-image: url(./sand-image.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
 }
+
 h1 {
   font-family: papyrus;
   font-style: italic;
-  font-size: 40px;
+  font-size: 44px;
   text-align: center;
+  line-height: 100px;
 }
 
 a {
@@ -21,10 +23,23 @@ label {
 
 nav a {
   display: inline-block;
-  margin: 1em;
 }
 
 form div {
   margin: 1em;
   display: inline-block;
+}
+#sandboxes-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 50px 50px;
+}
+
+#sandboxes-container * {
+  height: 75%;
+  padding: 100px;
+  background-color: #333;
+  border: 2px solid black;
+  border-radius: 25px;
+  color: darkgray;
 }
