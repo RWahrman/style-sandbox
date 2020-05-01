@@ -32,14 +32,15 @@ form div {
 #sandboxes-container {
   display: flex;
   justify-content: space-evenly;
-  margin: 50px 50px;
 }
 
-#sandboxes-container * {
-  height: 75%;
-  padding: 100px;
+#sandboxes-container > * {
+  height: 100%;
+  width: 30%;
+  padding: 20px;
   background-color: #333;
   border: 2px solid black;
   border-radius: 25px;
   color: darkgray;
+  text-align: center;
 }
