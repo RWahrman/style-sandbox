@@ -9,7 +9,7 @@ export const Sandbox = props => {
   return (
     <div id="sandbox">
       <h3>Sandbox</h3>
-      <textarea id="sandbox-input" value="Input content here." />
+      <textarea id="sandbox-input" defaultValue="Input content here." />
     </div>
   )
 }
