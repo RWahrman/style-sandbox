@@ -1,7 +1,7 @@
 import React from 'react'
 // import PropTypes from 'prop-types'
 import {connect} from 'react-redux'
-
+import fonts from './fonts'
 /**
  * COMPONENT
  */
@@ -11,7 +11,11 @@ export const StyleSelector = props => {
       <h3>Font Selector</h3>
       <form>
         <select>
-          <option />
+          {fonts.map(font => (
+            <option key={font} value={font}>
+              {font}
+            </option>
+          ))}
         </select>
       </form>
     </div>
