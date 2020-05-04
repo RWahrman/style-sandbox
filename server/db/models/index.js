@@ -1,4 +1,5 @@
 const Font = require('./font')
+const User = require('./user')
 
 /**
  * If we had any associations to make, this would be a great place to put them!
@@ -14,5 +15,6 @@ const Font = require('./font')
  * instead of: const User = require('../db/models/user')
  */
 module.exports = {
-  Font
+  Font,
+  User
 }
