@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Sandbox, StyleSelector} from './components'
+import {Sandbox, StyleSelector, SuggestionBox} from './components'
 // import Routes from './routes'
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <div id="sandboxes-container">
       <Sandbox />
       <StyleSelector />
+      <SuggestionBox />
     </div>
   )
 }

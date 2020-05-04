@@ -6,10 +6,20 @@ import {connect} from 'react-redux'
  * COMPONENT
  */
 export const Sandbox = props => {
+  let styles = {
+    fontFamily: props.font,
+    fontSize: 14,
+    color: props.color
+  }
+
   return (
     <div id="sandbox">
       <h3>Sandbox</h3>
-      <textarea id="sandbox-input" defaultValue="Input content here." />
+      <textarea
+        style={styles}
+        id="sandbox-input"
+        defaultValue="Input content here."
+      />
     </div>
   )
 }
@@ -19,15 +29,9 @@ export const Sandbox = props => {
  */
 const mapState = state => {
   return {
-    email: state.user.email
+    font: state.font.name,
+    color: state.font.color
   }
 }
 
 export default connect(mapState)(Sandbox)
-
-/**
- * PROP TYPES
- */
-// UserHome.propTypes = {
-//   email: PropTypes.string,
-// }

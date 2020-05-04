@@ -1,4 +1,5 @@
 const fonts = [
+  'Select Font',
   'Al Nile',
   'Al Tarikh',
   'AlBayan',

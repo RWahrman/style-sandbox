@@ -9,3 +9,4 @@
 
 export {default as Sandbox} from './sandbox'
 export {default as StyleSelector} from './style-selector'
+export {default as SuggestionBox} from './suggestion-box'

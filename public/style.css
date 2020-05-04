@@ -38,9 +38,20 @@ form div {
   height: 100%;
   width: 30%;
   padding: 20px;
+  margin: 30px;
   background-color: #333;
   border: 2px solid black;
   border-radius: 25px;
   color: darkgray;
   text-align: center;
+}
+
+#style-selector {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#suggestion-box > h6 {
+  text-align: start;
+  font-size: 12px;
 }
